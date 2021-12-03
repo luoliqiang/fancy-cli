@@ -1,0 +1,21 @@
+{
+  "name": "@fancy/stylelint-config",
+  "version": "1.0.0",
+  "description": "base stylelint config of vue project",
+  "main": "index.js",
+  "scripts": {
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "author": "llq",
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@fancy/eslint-config",
+  "version": "1.0.0",
+  "description": "base eslint config of vue project",
+  "main": "index.js",
+  "author": "llq",
+  "license": "MIT",
+  "scripts": {
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-markdown": "^2.2.0",
+    "eslint-plugin-vue": "^7.15.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
+  
